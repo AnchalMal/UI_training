@@ -1,0 +1,137 @@
+.col1 {
+  padding-top: 15px;
+  width: 30%;
+  height: 200px; }
+
+.col2 {
+  padding-top: 15px;
+  width: 30%;
+  height: 200px; }
+
+.col3 {
+  padding-top: 15px;
+  width: 30%;
+  height: 200px; }
+
+.col4 {
+  padding-top: 15px;
+  width: 30%;
+  height: 200px; }
+
+.col5 {
+  padding-top: 15px;
+  width: 30%;
+  height: 200px; }
+
+#below1 {
+  padding-left: 40px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: Small; }
+
+#below2 {
+  padding-left: 40px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: Small; }
+
+#below3 {
+  padding-left: 40px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: Small; }
+
+#below4 {
+  padding-left: 40px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: Small; }
+
+#below5 {
+  padding-left: 40px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: Small; }
+
+#link1 {
+  padding-right: 10px;
+  text-decoration: none; }
+
+#link2 {
+  padding-right: 10px;
+  text-decoration: none; }
+
+#link3 {
+  padding-right: 10px;
+  text-decoration: none; }
+
+#link4 {
+  padding-right: 20px; }
+
+#link5 {
+  padding-right: 20px; }
+
+header {
+  border-bottom: solid black;
+  border-width: thin; }
+  header .parent, header .parent .div2 .links1, header .parent .div2 .links1 .menu, header .parent .div2 .links1 .menu a {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row; }
+    header .parent .div1, header .parent .div2 .links1 .div1, header .parent .div2 .links1 .menu a .div1 {
+      display: flex;
+      width: 50%; }
+      header .parent .div1 .image1, header .parent .div2 .links1 .menu .div1 .image1 {
+        margin-top: 15px;
+        margin-left: 90px;
+        width: 25%; }
+      header .parent .div1 .text, header .parent .div2 .links1 .menu .div1 .text {
+        font-family: "Arial", Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: 90px;
+        padding-left: 30px;
+        color: gray; }
+    header .parent .div2, header .parent .div2 .links1 .div2, header .parent .div2 .links1 .menu a .div2 {
+      display: flex;
+      justify-content: flex-end;
+      width: 50%; }
+      header .parent .div2 .links1, header .parent .div2 .links1 .menu .div2 .links1 {
+        margin-right: 90px;
+        margin-top: 90px; }
+        header .parent .div2 .links1 .menu, header .parent .div2 .links1 .menu a .div2 .links1 .menu, header .parent .div2 .links1 .menu a {
+          list-style-type: none;
+          padding-right: 10px;
+          text-decoration: none; }
+          header .parent .div2 .links1 .menu a {
+            color: grey;
+            text-decoration: none; }
+  header .parent2, header .parent2 .links2, header .parent2 .form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 50px; }
+    header .parent2 .links2 {
+      width: 67%;
+      color: blue;
+      background-color: transparent;
+      padding-right: 10px; }
+    header .parent2 .form {
+      margin-right: 95px; }
+
+.blank {
+  height: 280px; }
+
+footer .columns {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding-top: 15px;
+  font-family: sans-serif;
+  font-size: x-Small;
+  margin-left: 80px;
+  margin-right: 80px; }
+footer .below {
+  background-color: #355b79;
+  height: 30px;
+  width: 100%;
+  color: white; }
+  footer .below p {
+    margin-left: 100px; }
+
+/*# sourceMappingURL=newcss.css.map */
