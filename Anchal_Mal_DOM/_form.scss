@@ -1,0 +1,121 @@
+$marginl: 200px;
+$marginr: 200px;
+
+.blank{
+	height:270px;
+	margin-left: $marginl;
+	margin-right: $marginr;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display:flex;
+	flex-direction:row;
+}
+
+.register{
+	
+	width:80%;
+	
+	display:flex;
+	flex-direction:row;
+	margin-right:30px;
+	margin-bottom:50px;
+
+	.register1{
+		padding:20px;
+		font-size: large;
+		height: 650px;
+		border-style:solid;
+		border-width:thin;
+		width:500px;
+
+		.heading1{
+			text-align: center;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 20px;
+			margin-left:30px;
+				}
+
+				textarea{
+					display: inline-block;
+					vertical-align:top;
+				}
+		}
+	}
+
+
+
+.output{
+	width:40%;
+	
+	display:flex;
+	flex-direction:row;
+	margin-bottom: 50px;
+
+	.output1{
+		padding:20px;
+		width:400px;
+		height: 650px;
+		border-style:solid;
+		border-width:thin;
+	
+
+	.heading2{
+			text-align: center;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 20px;
+	}
+
+}
+}
+
+.before{
+	color:red;
+}
+
+#name{
+	font-size: 16px;
+	padding: 2px 2px;
+
+	#checkbox{
+		margin-right:60px;
+	}
+		
+	#firstname{
+		font-size: 16px;
+	padding: 2px 2px;
+	}
+}
+
+#btn1,#btn2{
+	font-size: 16px;
+	padding: 14px 40px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    margin-left:70px;
+    
+}
+
+#firstname,#email{
+	height:20px;
+}
+
+input{
+	margin-left: 50px; padding-right: 50px;
+}
+
+#btn1{
+	background-color: #4CAF50;
+}
+
+#btn2{
+	background-color: #008CBA;
+}
+#btn1:hover{
+	background-color: #20B2AA;
+}
+
+#btn2:hover{
+	background-color: #20B2AA;
+}

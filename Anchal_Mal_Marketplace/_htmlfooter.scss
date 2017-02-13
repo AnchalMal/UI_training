@@ -1,0 +1,22 @@
+.footer{
+	display:flex;
+	flex-direction: row;
+	border-top: solid black;
+	border-width: thin;
+	background: #006688;
+	
+
+
+	.links{
+		display:flex;
+			flex-direction: row;
+			list-style-type:none;
+			margin-left: 100px;
+			margin-right:100px;
+
+			li{
+				list-style-type:none;
+				color:white;
+			}
+	}
+}

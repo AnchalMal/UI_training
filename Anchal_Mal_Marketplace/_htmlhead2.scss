@@ -1,0 +1,59 @@
+.header2{
+	display:flex;
+	border-bottom: solid gray;
+	border-width: thin;
+	background: white;
+	width:100%;
+	height:70px;
+	
+	.logo{
+		display:flex;
+		flex-direction: row;
+		margin-right:100px;
+		margin-left:80px;
+		width:50%;
+
+		.left-nav1{
+			display:flex;
+			flex-direction: row;
+			list-style-type:none;
+
+			li{
+				margin-right:60px;
+
+
+				#telesystem{
+					height:45px;
+					width:220px;
+				}
+				#text
+				{
+					padding-top: 20px;
+				}
+			}
+
+		}
+	}
+
+	.buttons{
+			display:flex;
+			flex-direction: row;
+			justify-content:flex-end;
+			list-style-type:none;
+			width:50%;
+			margin-right: 120px;
+
+			.button{
+				width:90px;
+				font-size:medium;
+				color: #175ea9;
+			}
+
+
+	}
+}
+
+.button:hover{
+	background-color:#20B2AA;
+}
+
