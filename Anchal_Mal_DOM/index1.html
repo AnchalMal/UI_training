@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Marketplace.1</title>
+	<link rel="stylesheet" type="text/css" href="new1.css">
+</head>
+
+<body>
+	<header>
+		<div class = "parent1">
+		<div class = "parent1a">
+			<ul class = "logo">
+				<li><img src ="appdirect_logo.png" alt= "Appdirect logo" size ="20px"></li>
+			</ul>
+			<ul class= "myapps">
+					<li class ="one"><a href = "#"> My Apps </a></li>
+					<li class ="two"><a href = "#"> Marketplace </a></li>
+			</ul>
+
+		</div>
+
+		<div class = "parent1b">
+			<ul class ="account">
+				<li><a href = "#"> Account </a></li>
+			</ul>
+			<ul class= "myname">
+					
+					<div class="newdropdown">
+  					<button onclick="myFunction()" class="dropbtn">Anchal Mal</button>
+  					<div id="myDropdown" class="dropdown-content">
+   					 <a href="#">My Profile</a>
+   					 <a href="#">My Settings</a>
+    				<a href="#">My Company</a>
+    				<a href="#">Logout</a>
+  					</div></div></ul>
+		</div>
+			
+
+	
+		
+		</div>
+
+	</header>
+
+	<div class="blank">
+
+	<div class="register">
+	<div class="register1">
+		<div class="heading1"> Registration Page</div><br>
+		<form name="myform">
+			
+			First Name 
+			<span class="before">*</span> &nbsp &nbsp &nbsp &nbsp &nbsp
+			<input id="firstname" type="text" name="firstname" required><br><br>
+			
+			Last Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+			<input id="name" type="text" name="lastname" required><br><br>
+			
+			
+			<label for="textarea"> Address (P)</label>
+			<span class="before">*</span> &nbsp &nbsp &nbsp 
+			<textarea id="t1" name="Address (P)" rows="5" cols="50" required>
+			Fill in the permanent address.
+			</textarea><br>
+
+			<input id= "checkbox" type="checkbox" name="check" value="address" onclick="sync(this);"><br><br><br>
+
+			<label for="textarea"> Address (C)</label>
+			<span class="before">*</span> &nbsp &nbsp &nbsp
+			<textarea id="t2" name="Address (C)" rows="5" cols="50">
+			Fill in the current address.
+			</textarea><br><br>
+			
+			E-mail
+			<span class="before">*</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<input id="email" type="email" name="email" required><br><br>
+			
+			Phone No.
+			<span class="before">*</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<input id= "name" type="text" name="phone" minlength="10" maxlength="12"><br><br>
+			Password
+			<span class="before">*</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<input id= "name" oncopy="return false" onpaste="return false"type="password" name="password1" required><br><br>
+
+
+			Confirm Password
+			<span class="before">*</span> &nbsp
+			<input id="name" oncopy="return false" onpaste="return false"type="password" name="password2" required><br><br>
+
+			<button id="btn1" type="reset" value="reset">Reset</button>
+			<button id="btn2" type="button" value="register" onclick="validateform();"> Register</button>
+			
+		</form>
+		</div>
+	</div>
+
+	<div class="output">
+		<div class="output1">
+		<div class="heading2"> Dashboard </div>
+		<div class="dashboard"> 
+			<ul id ="mylist">
+			</ul>
+			</div>
+	</div></div>
+
+	</div>
+
+
+	<footer>
+		<div class="parent2">
+		<div class="parent2a">
+			<ul class="list1">
+				<li><img class="image" src = "appdirect_footer.png" alt= "Appdirect logo at footer"></li>
+				<li> Powered by Appdirect</li>
+				<li> @ 2009-2017 </li>
+			</ul>
+		</div>
+
+
+
+		<div class= "parent2b">
+			<ul class="list2">
+				<li> <select name="dropdown">
+					<option value="us" selected> English (United States)</option>
+					<option value="hindi">Hindi</option>
+					<option value="Punjabi">Punjabi</option>
+					<option value="UK">English (UK)</option>
+
+					</select></li>
+				<li> Help Center </li>
+				<li> Privacy Policy </li>
+				<li> Terms and Conditions</li>
+				<li> Contacts </li>
+			</ul>
+		</div>
+		</div>
+
+	<script src="form.js"></script>
+
+</body>
+</html>
